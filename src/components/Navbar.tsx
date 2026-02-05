@@ -20,7 +20,7 @@
    return (
      <header className="sticky top-0 z-50 bg-card/95 backdrop-blur-sm border-b border-border/50 shadow-card">
        <div className="container mx-auto px-4">
-         <nav className="flex items-center justify-between h-16 md:h-20">
+        <nav className="flex items-center justify-between h-20 max-md:h-16">
            <Link to="/" className="flex-shrink-0">
              <Logo />
            </Link>

@@ -13,14 +13,14 @@
    return (
      <Layout>
        {/* Hero Section */}
-       <section className="relative hero-gradient overflow-hidden">
-         <div className="container mx-auto px-4 py-12 lg:py-20">
-           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <section className="relative hero-gradient overflow-hidden">
+          <div className="container mx-auto px-4 py-20 max-md:py-12">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-12 max-md:gap-8 items-center">
              <div className="space-y-6 animate-fade-in">
-               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary leading-tight">
+                <h1 className="text-6xl max-lg:text-5xl max-md:text-4xl font-display font-bold text-primary leading-tight">
                  Create Your Community Daycare Center
                </h1>
-               <p className="text-lg md:text-xl text-foreground/80 max-w-lg">
+                <p className="text-xl max-md:text-lg text-foreground/80 max-w-lg">
                  Custom On-Site Childcare Solutions for Builders & Gated Communities
                </p>
                <Button asChild variant="cta" size="xl" className="rounded-xl">
@@ -41,10 +41,10 @@
        </section>
  
        {/* Build Your Toddlers Dun Section */}
-       <section className="py-16 lg:py-24 bg-card">
+        <section className="py-24 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
            <div className="text-center mb-12">
-             <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-4">
+              <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-4">
                Build Your Toddlers Dun
              </h2>
              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
@@ -53,7 +53,7 @@
            </div>
  
            {/* Baby Growth Journey */}
-           <div className="grid md:grid-cols-3 gap-8 mb-16">
+            <div className="grid grid-cols-3 max-md:grid-cols-1 gap-8 mb-16">
              {[
                { img: babySleeping, label: "Start", desc: "Dream begins" },
                { img: babyCrawling, label: "Growing", desc: "Taking shape" },
@@ -72,8 +72,8 @@
                        className="w-28 h-28 object-cover"
                      />
                    </div>
-                   {index < 2 && (
-                     <div className="hidden md:block absolute top-1/2 -right-16 transform -translate-y-1/2 text-primary text-3xl">
+                    {index < 2 && (
+                      <div className="absolute top-1/2 -right-16 transform -translate-y-1/2 text-primary text-3xl max-md:hidden">
                        →
                      </div>
                    )}
@@ -87,7 +87,7 @@
            </div>
  
            {/* Room Evolution */}
-           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="grid grid-cols-4 max-lg:grid-cols-2 max-md:grid-cols-1 gap-6">
              {[
                { img: roomFoundation, label: "1) Foundation", badge: "A Fresh Start" },
                { img: roomGrowth, label: "2) Growth", badge: null },
@@ -141,12 +141,12 @@
        </section>
  
        {/* Trust Section */}
-       <section className="py-16 lg:py-24 section-gradient">
+        <section className="py-24 max-md:py-16 section-gradient">
          <div className="container mx-auto px-4 text-center">
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-8">
              Trusted by Communities Across India
            </h2>
-           <div className="grid md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-3 max-md:grid-cols-1 gap-8">
              {[
                { number: "50+", label: "Communities Served" },
                { number: "2000+", label: "Happy Toddlers" },

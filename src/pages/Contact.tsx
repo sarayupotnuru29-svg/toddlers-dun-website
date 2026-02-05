@@ -33,10 +33,10 @@
  
    return (
      <Layout>
-       <section className="py-16 lg:py-24 section-gradient min-h-screen">
+        <section className="py-24 max-md:py-16 section-gradient min-h-screen">
          <div className="container mx-auto px-4">
            <div className="text-center mb-12 animate-fade-in">
-             <h1 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">
+              <h1 className="text-5xl max-md:text-4xl font-display font-bold text-primary mb-4">
                Contact Us
              </h1>
              <p className="text-lg text-muted-foreground">
@@ -44,7 +44,7 @@
              </p>
            </div>
  
-           <div className="grid lg:grid-cols-2 gap-12 max-w-5xl mx-auto">
+            <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-12 max-w-5xl mx-auto">
              {/* Contact Form */}
              <div className="card-soft p-8 animate-fade-in">
                <h2 className="text-2xl font-display font-bold text-primary mb-6">

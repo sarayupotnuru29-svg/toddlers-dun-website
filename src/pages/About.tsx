@@ -9,9 +9,9 @@
    return (
      <Layout>
        {/* Hero Section */}
-       <section className="py-16 lg:py-24 hero-gradient">
+        <section className="py-24 max-md:py-16 hero-gradient">
          <div className="container mx-auto px-4 text-center">
-           <h1 className="text-4xl md:text-5xl font-display font-bold text-primary mb-6 animate-fade-in">
+            <h1 className="text-5xl max-md:text-4xl font-display font-bold text-primary mb-6 animate-fade-in">
              About Toddlers Dun
            </h1>
            <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-fade-in" style={{ animationDelay: "0.1s" }}>
@@ -21,11 +21,11 @@
        </section>
  
        {/* What is Toddlers Dun */}
-       <section className="py-16 lg:py-20 bg-card">
+        <section className="py-20 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
-           <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid grid-cols-2 max-lg:grid-cols-1 gap-12 items-center">
              <div className="animate-fade-in">
-               <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-6">
+                <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-6">
                  What is Toddlers Dun?
                </h2>
                <p className="text-lg text-foreground/80 leading-relaxed mb-4">
@@ -47,12 +47,12 @@
        </section>
  
        {/* Who It's For */}
-       <section className="py-16 lg:py-20 section-gradient">
+        <section className="py-20 max-md:py-16 section-gradient">
          <div className="container mx-auto px-4">
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-12">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary text-center mb-12">
              Who Is It For?
            </h2>
-           <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-8 max-w-4xl mx-auto">
              <div className="card-soft p-8 animate-fade-in">
                <div className="w-16 h-16 rounded-2xl bg-primary/10 flex items-center justify-center mb-4">
                  <Home className="w-8 h-8 text-primary" />
@@ -76,12 +76,12 @@
        </section>
  
        {/* How It Works */}
-       <section className="py-16 lg:py-20 bg-card">
+        <section className="py-20 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-12">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary text-center mb-12">
              How It Works
            </h2>
-           <div className="grid md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <div className="grid grid-cols-4 max-md:grid-cols-2 max-sm:grid-cols-1 gap-6 max-w-5xl mx-auto">
              {[
                { step: "01", title: "Connect", desc: "Builders reach out to discuss community needs" },
                { step: "02", title: "Design", desc: "We create a custom daycare plan for your space" },
@@ -105,10 +105,10 @@
        </section>
  
        {/* Why We Exist */}
-       <section className="py-16 lg:py-20 section-gradient">
+        <section className="py-20 max-md:py-16 section-gradient">
          <div className="container mx-auto px-4 text-center max-w-3xl">
            <Sparkles className="w-12 h-12 text-accent mx-auto mb-6" />
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-6">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-6">
              Why We Exist
            </h2>
            <p className="text-lg text-foreground/80 leading-relaxed mb-8">
@@ -118,15 +118,15 @@
        </section>
  
        {/* Baby Growth Concept */}
-       <section className="py-16 lg:py-20 bg-card">
+        <section className="py-20 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-4">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary text-center mb-4">
              The Baby Growth Concept
            </h2>
            <p className="text-center text-muted-foreground max-w-2xl mx-auto mb-12">
              Just like babies grow through stages, so does your daycare center. Watch your space transform from foundation to a thriving community hub.
            </p>
-           <div className="flex flex-col md:flex-row items-center justify-center gap-8">
+            <div className="flex flex-row max-md:flex-col items-center justify-center gap-8">
              {[
                { img: babySleeping, label: "Dream", desc: "The vision begins" },
                { img: babyCrawling, label: "Grow", desc: "Taking shape" },
@@ -141,8 +141,8 @@
                    <div className="w-32 h-32 rounded-full bg-secondary flex items-center justify-center overflow-hidden mx-auto mb-4 shadow-soft">
                      <img src={stage.img} alt={stage.label} className="w-28 h-28 object-cover" />
                    </div>
-                   {index < 2 && (
-                     <div className="hidden md:block absolute top-1/2 -right-6 transform -translate-y-1/2 text-primary text-2xl">
+                    {index < 2 && (
+                      <div className="absolute top-1/2 -right-6 transform -translate-y-1/2 text-primary text-2xl max-md:hidden">
                        →
                      </div>
                    )}

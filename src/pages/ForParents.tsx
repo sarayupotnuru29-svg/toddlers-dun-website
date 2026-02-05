@@ -37,14 +37,14 @@
    return (
      <Layout>
        {/* Hero Section */}
-       <section className="relative hero-gradient overflow-hidden">
-         <div className="container mx-auto px-4 py-12 lg:py-20">
-           <div className="grid lg:grid-cols-2 gap-8 lg:gap-12 items-center">
+        <section className="relative hero-gradient overflow-hidden">
+          <div className="container mx-auto px-4 py-20 max-md:py-12">
+            <div className="grid grid-cols-2 max-md:grid-cols-1 gap-12 max-md:gap-8 items-center">
              <div className="space-y-6 animate-fade-in">
-               <h1 className="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-primary leading-tight">
+                <h1 className="text-6xl max-lg:text-5xl max-md:text-4xl font-display font-bold text-primary leading-tight">
                  Partnering for Thriving Communities
                </h1>
-               <p className="text-lg md:text-xl text-foreground/80 max-w-lg">
+                <p className="text-xl max-md:text-lg text-foreground/80 max-w-lg">
                  Custom On-Site Childcare Solutions for Builders & Tenant Communities
                </p>
                <Button asChild variant="cta" size="xl" className="rounded-xl">
@@ -63,13 +63,13 @@
        </section>
  
        {/* Our Process Section */}
-       <section className="py-16 lg:py-24 bg-card">
+        <section className="py-24 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary text-center mb-12">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary text-center mb-12">
              Our Process: From Concept to Community
            </h2>
  
-           <div className="flex flex-col md:flex-row items-center justify-center gap-6 md:gap-4">
+            <div className="flex flex-row max-md:flex-col items-center justify-center gap-4 max-md:gap-6">
              {processSteps.map((step, index) => (
                <div key={step.title} className="flex items-center gap-4">
                  <div className="text-center animate-fade-in" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -81,8 +81,8 @@
                      {step.desc}
                    </p>
                  </div>
-                 {index < processSteps.length - 1 && (
-                   <div className="hidden md:block text-primary text-2xl px-2">→</div>
+                  {index < processSteps.length - 1 && (
+                    <div className="text-primary text-2xl px-2 max-md:hidden">→</div>
                  )}
                </div>
              ))}
@@ -91,13 +91,13 @@
        </section>
  
        {/* Builder Benefits Section */}
-       <section className="py-16 lg:py-24 section-gradient">
+        <section className="py-24 max-md:py-16 section-gradient">
          <div className="container mx-auto px-4">
-           <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-12">
+            <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-12">
              Builder Benefits
            </h2>
  
-           <div className="grid md:grid-cols-3 gap-6">
+            <div className="grid grid-cols-3 max-md:grid-cols-1 gap-6">
              {benefits.map((benefit, index) => (
                <div
                  key={benefit.title}
@@ -118,13 +118,13 @@
        </section>
  
        {/* Safety & Trust Section */}
-       <section className="py-16 lg:py-24 bg-card">
+        <section className="py-24 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
            <div className="max-w-3xl mx-auto text-center">
-             <h2 className="text-3xl md:text-4xl font-display font-bold text-primary mb-8">
+              <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-8">
                Your Child's Safety is Our Priority
              </h2>
-             <div className="grid sm:grid-cols-2 gap-4">
+              <div className="grid grid-cols-2 max-sm:grid-cols-1 gap-4">
                {[
                  "Trained & verified caregivers",
                  "24/7 CCTV monitoring",
