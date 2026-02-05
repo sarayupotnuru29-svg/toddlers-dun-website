@@ -40,12 +40,12 @@
          </div>
        </section>
  
-       {/* Build Your Toddlers Dun Section */}
+       {/* Build Your Toddlers Den Section */}
         <section className="py-24 max-md:py-16 bg-card">
          <div className="container mx-auto px-4">
            <div className="text-center mb-12">
               <h2 className="text-4xl max-md:text-3xl font-display font-bold text-primary mb-4">
-               Build Your Toddlers Dun
+               Build Your Toddlers Den
              </h2>
              <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
                Watch your daycare center grow from foundation to a thriving community space

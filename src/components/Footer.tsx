@@ -13,7 +13,7 @@
                <div className="w-10 h-10 bg-primary-foreground/20 rounded-xl flex items-center justify-center">
                  <span className="text-xl">🏠</span>
                </div>
-               <span className="font-display font-bold text-xl">Toddlers Dun</span>
+               <span className="font-display font-bold text-xl">Toddlers Den</span>
              </div>
              <p className="text-primary-foreground/80 text-sm leading-relaxed">
                Creating safe, nurturing spaces for toddlers in communities across India.
@@ -64,7 +64,7 @@
                </li>
                <li className="flex items-center gap-3 text-sm text-primary-foreground/80">
                  <Mail className="w-4 h-4 flex-shrink-0" />
-                 <span>hello@toddlersdun.com</span>
+                 <span>hello@toddlersden.com</span>
                </li>
                <li className="flex items-start gap-3 text-sm text-primary-foreground/80">
                  <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
@@ -75,7 +75,7 @@
          </div>
  
          <div className="mt-12 pt-8 border-t border-primary-foreground/20 text-center text-sm text-primary-foreground/60">
-           <p>© 2025 Toddlers Dun. All rights reserved. Made with ❤️ for little ones.</p>
+           <p>© 2025 Toddlers Den. All rights reserved. Made with ❤️ for little ones.</p>
          </div>
        </div>
      </footer>

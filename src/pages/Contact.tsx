@@ -19,7 +19,7 @@
        `Full Name: ${formData.fullName}\nEmail: ${formData.email}\nReason: ${formData.reason}\n\nMessage:\n${formData.comment}`
      );
  
-     window.location.href = `mailto:hello@toddlersdun.com?subject=${subject}&body=${body}`;
+     window.location.href = `mailto:hello@toddlersden.com?subject=${subject}&body=${body}`;
    };
  
    const handleChange = (
@@ -141,7 +141,7 @@
                      </div>
                      <div>
                        <h3 className="font-semibold text-foreground">Email</h3>
-                       <p className="text-muted-foreground">hello@toddlersdun.com</p>
+                       <p className="text-muted-foreground">hello@toddlersden.com</p>
                      </div>
                    </div>
  
@@ -162,7 +162,7 @@
  
                <div className="card-soft p-6">
                  <h3 className="font-display font-bold text-lg text-primary mb-2">
-                   Toddlers Dun Support
+                   Toddlers Den Support
                  </h3>
                  <p className="text-muted-foreground text-sm leading-relaxed">
                    Our team is available Monday to Saturday, 9 AM to 6 PM IST. We typically respond within 24 hours.

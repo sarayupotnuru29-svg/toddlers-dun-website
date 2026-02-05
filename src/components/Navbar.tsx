@@ -44,7 +44,7 @@
  
            <div className="hidden lg:block">
              <Button asChild variant="cta" size="lg" className="rounded-xl">
-               <Link to="/build">Build Your Toddlers Dun</Link>
+               <Link to="/build">Build Your Toddlers Den</Link>
              </Button>
            </div>
  
@@ -78,7 +78,7 @@
                ))}
                <Button asChild variant="cta" size="lg" className="mt-2 rounded-xl">
                  <Link to="/build" onClick={() => setIsOpen(false)}>
-                   Build Your Toddlers Dun
+                   Build Your Toddlers Den
                  </Link>
                </Button>
              </div>

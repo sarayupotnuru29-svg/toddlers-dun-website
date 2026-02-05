@@ -36,7 +36,7 @@
      {
        number: 5,
        title: "Parents Start Booking",
-       desc: "The Dun opens! Parents enroll their little ones.",
+       desc: "The Den opens! Parents enroll their little ones.",
        image: stepBooking,
      },
    ];
@@ -91,7 +91,7 @@
            {/* CTA Section */}
            <div className="text-center animate-fade-in" style={{ animationDelay: "0.5s" }}>
              <p className="text-xl text-foreground mb-6 font-medium">
-               Ready to bring Toddlers Dun to your community?
+               Ready to bring Toddlers Den to your community?
              </p>
              <Button asChild variant="cta" size="xl" className="rounded-full px-12">
                <Link to="/build">Start Your Journey Today</Link>

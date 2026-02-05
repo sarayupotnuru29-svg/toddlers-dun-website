@@ -16,7 +16,7 @@
        </div>
        {showText && (
          <span className="font-display font-bold text-xl text-primary">
-           Toddlers Dun
+           Toddlers Den
          </span>
        )}
      </div>

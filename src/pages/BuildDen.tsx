@@ -81,7 +81,7 @@
         <section className="py-12 max-md:py-8 section-gradient min-h-screen">
          <div className="container mx-auto px-4">
             <h1 className="text-4xl max-md:text-3xl font-display font-bold text-primary text-center mb-2">
-             Build Your Toddlers Dun:
+             Build Your Toddlers Den:
            </h1>
            <p className="text-xl text-muted-foreground text-center mb-8">
              Custom Configurator
