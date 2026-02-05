@@ -1,10 +1,10 @@
  import { Link } from "react-router-dom";
  import Layout from "@/components/Layout";
  import { Button } from "@/components/ui/button";
- import heroDaycare from "@/assets/hero-daycare.jpg";
- import babySleeping from "@/assets/baby-sleeping.png";
- import babyCrawling from "@/assets/baby-crawling.png";
- import babyExcited from "@/assets/baby-excited.png";
+ import heroDaycare from "@/assets/home.png";
+ import babySleeping from "@/assets/mini_den.png";
+ import babyCrawling from "@/assets/standard_den.png";
+ import babyExcited from "@/assets/Premium_den.png";
  import roomFoundation from "@/assets/room-foundation.png";
  import roomGrowth from "@/assets/room-growth.png";
  import roomThriving from "@/assets/room-thriving.png";
