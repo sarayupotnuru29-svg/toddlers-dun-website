@@ -50,10 +50,10 @@
  
    return (
      <Layout>
-       <section className="py-16 lg:py-24 section-gradient min-h-[80vh]">
+        <section className="py-24 max-md:py-16 section-gradient min-h-[80vh]">
          <div className="container mx-auto px-4">
            <div className="text-center mb-12 animate-fade-in">
-             <h1 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4">
+              <h1 className="text-5xl max-md:text-4xl font-display font-bold text-primary mb-4">
                Solutions & Pricing
              </h1>
              <p className="text-lg text-muted-foreground uppercase tracking-wider font-semibold">
@@ -61,7 +61,7 @@
              </p>
            </div>
  
-           <div className="grid md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+            <div className="grid grid-cols-3 max-md:grid-cols-1 gap-8 max-w-5xl mx-auto">
              {plans.map((plan, index) => (
                <div
                  key={plan.name}
